@@ -1,0 +1,73 @@
+{
+  "SchemaVersion": 2,
+  "Trivy": {
+    "Version": "0.74.0"
+  },
+  "ReportID": "01a0253c-bdba-7db9-a2c0-2509fbbf5cd8",
+  "CreatedAt": "2026-08-21T22:22:12.8588994+05:30",
+  "ArtifactID": "sha256:d611672fdef1817ca324d40cb71b2de59eff205a638e0e048f357cc78264e02a",
+  "ArtifactName": "C:/Users/SRUJAN~1/AppData/Local/Temp/security-update-o7o29grg/project",
+  "ArtifactType": "repository",
+  "Metadata": {
+    "RepoURL": "https://github.com/SrujanCA/Medical-Report-Analyzer.git",
+    "Branch": "main",
+    "Commit": "6264754e7862ac19b4d52937787084af43873961",
+    "CommitMsg": "Update .env.example",
+    "Author": "SrujanCA \u003csrujanca427@gmail.com\u003e",
+    "Committer": "GitHub \u003cnoreply@github.com\u003e"
+  },
+  "Results": [
+    {
+      "Target": "requirements.txt",
+      "Class": "lang-pkgs",
+      "Type": "pip",
+      "Packages": [
+        {
+          "Name": "Pillow",
+          "Identifier": {
+            "PURL": "pkg:pypi/pillow@12.3.0",
+            "UID": "258ef55a23ad1c82"
+          },
+          "Version": "12.3.0",
+          "Locations": [
+            {
+              "StartLine": 3,
+              "EndLine": 3
+            }
+          ],
+          "AnalyzedBy": "pip"
+        },
+        {
+          "Name": "pdf2image",
+          "Identifier": {
+            "PURL": "pkg:pypi/pdf2image@1.16.3",
+            "UID": "d212f37662e1c763"
+          },
+          "Version": "1.16.3",
+          "Locations": [
+            {
+              "StartLine": 5,
+              "EndLine": 5
+            }
+          ],
+          "AnalyzedBy": "pip"
+        },
+        {
+          "Name": "pytesseract",
+          "Identifier": {
+            "PURL": "pkg:pypi/pytesseract@0.3.13",
+            "UID": "71a5873ca43d783b"
+          },
+          "Version": "0.3.13",
+          "Locations": [
+            {
+              "StartLine": 4,
+              "EndLine": 4
+            }
+          ],
+          "AnalyzedBy": "pip"
+        }
+      ]
+    }
+  ]
+}
